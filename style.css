@@ -1,0 +1,33 @@
+body {
+  background-color: aliceblue;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin: 10px 0px;
+}
+
+#color {
+  color: white;
+}
+
+.main {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: large;
+  font-weight: bolder;
+}
+
+.button{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    
+}
